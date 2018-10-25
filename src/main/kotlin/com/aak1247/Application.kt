@@ -33,9 +33,10 @@ class Application : AbstractVerticle() {
             var url = Application.javaClass.classLoader.getResource("config.yaml")
             var map = yaml.load<FileInputStream>(FileInputStream(url.file)) as Map<*, *>
             val mapUtil = MapUtil()
-            config["comment"] = mapUtil.getObjFromMap(map, "")
+//            config["comment"] = mapUtil.getObjFromMap(map, "")
 //            config[]
 
+            //router
         }
     }
 
