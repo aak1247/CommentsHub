@@ -11,9 +11,12 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk11"
+    compile "org.jetbrains.kotlin:kotlin-reflect"
     compile "io.vertx:vertx-core:3.5.4"
     compile "io.vertx:vertx-web:3.5.4"
     compile "io.vertx:vertx-lang-kotlin:3.5.4"
+    compile "org.yaml:snakeyaml:1.19"
+    compile 'org.jetbrains.exposed:exposed:0.10.5'
 }
 
 compileKotlin {
