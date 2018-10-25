@@ -13,3 +13,10 @@ enum class Gender(val code: Number) {
     FEMALE(2)
 }
 
+enum class HttpMethod(val method: String) {
+    GET("GET"),
+    POST("POST"),
+    PUT("PUT"),
+    HEAD("HEAD"),
+    OPTIONS("OPTIONS")
+}

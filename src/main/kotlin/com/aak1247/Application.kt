@@ -4,8 +4,6 @@ import com.aak1247.router.Routers
 import com.aak1247.utils.MapUtil
 import io.vertx.core.AbstractVerticle
 import io.vertx.core.Vertx
-import io.vertx.core.json.Json
-import io.vertx.ext.web.Router
 import io.vertx.kotlin.core.VertxOptions
 import io.vertx.kotlin.core.http.HttpServerOptions
 import org.yaml.snakeyaml.Yaml
@@ -36,7 +34,7 @@ class Application : AbstractVerticle() {
 //            config["comment"] = mapUtil.getObjFromMap(map, "")
 //            config[]
 
-            //router
+
         }
     }
 

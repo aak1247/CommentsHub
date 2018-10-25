@@ -35,5 +35,3 @@ class User(val id: String,
 
 
 }
-
-data class LogginUser(val username: String, val password: String)
